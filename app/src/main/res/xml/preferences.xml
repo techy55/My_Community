@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+
+        android:key="abc"
+        android:summaryOff="dum"
+        android:summaryOn="dum"
+        android:title="Dummy" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:icon="@drawable/announcement64"
+        android:key="@string/announcements"
+        android:summaryOff="Block Alerts from Association"
+        android:summaryOn="Get Alerts from Association"
+        android:title="@string/announcements" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:icon="@drawable/dues"
+        android:key="@string/dues"
+        android:summaryOff="Dont Notify about Dues"
+        android:summaryOn="Get Notified about Dues"
+        android:title="@string/dues" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:icon="@drawable/events64"
+        android:key="@string/events"
+        android:title="@string/events" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:icon="@drawable/security256"
+        android:key="@string/security"
+        android:summaryOff="Do Not Disturb"
+        android:summaryOn="Get Security Notifications"
+        android:title="@string/security" />
+</androidx.preference.PreferenceScreen>

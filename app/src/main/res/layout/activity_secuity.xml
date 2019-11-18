@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/security"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="50dp"
+    tools:context=".security.SecurityActivity">
+
+    <Button
+        android:id="@+id/security_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:background="@color/transparent"
+        android:drawableTop="@drawable/security128"
+        android:text="Security"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/visitor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/security_img"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:autofillHints="Visitor Name"
+        android:background="@drawable/reg_edittxt_bg"
+        android:gravity="center"
+        android:hint="Visitor Name"
+        android:inputType="text"
+        android:maxLength="20"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/flatno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/visitor_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:autofillHints="flat no"
+        android:background="@drawable/reg_edittxt_bg"
+        android:gravity="center"
+        android:hint="Flat No"
+        android:inputType="number"
+        android:maxLength="3"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/go_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flatno"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/security_lay_btn_bg"
+        android:padding="20dp"
+        android:text="Go"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>

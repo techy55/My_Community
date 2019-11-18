@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="titleColor">#ffffff</color>
+
+    <!-- For App_Register Screen -->
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_main">#428bca</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#969595</color>
+    <color name="input_register">#b4b3b3</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="google_btn_login_bg">#fdfdfe</color>
+    <color name="lbl_name">#333333</color>
+    <color name="fb_btn_login_bg">#3B579D</color>
+
+    <color name="nav_btn_bg_sem_transparent">#80ffffff</color>
+
+    <color name="btn_bg">#e9e9ff</color>
+
+    <!-- For App_Login Screen -->
+    <color name="white">#ffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="login_grad_start">#1958aa</color>
+    <color name="login_grad_end">#2096c1</color>
+
+    <!-- For App_Register Screen -->
+    <color name="black">#000000</color>
+    <color name="reg_grad_start">#d61a3f</color>
+    <color name="reg_grad_end">#FF4081</color>
+</resources>

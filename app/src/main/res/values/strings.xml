@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">My Community</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="appbar_scrolling_view_behavior">scroll behaviour</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="login">Login</string>
+    <string name="registering">Registering</string>
+    <string name="logging">Logging In</string>
+    <!-- Strings related to login & Registration Start -->
+
+    <string name="prompt_password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="signup">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_OTP">OTP</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_Name">Name</string>
+    <string name="hint_Lname">Last Name</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_login">Already registered! Login.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+
+    <!-- Donor Registration start -->
+    <!-- Register pop up start -->
+    <string name="dialog_title">Register</string>
+    <string name="dialog_msg">Please Register to Become a Donor</string>
+    <string name="cancel">Cancel</string>
+    <string name="Register">Register</string>
+
+    <string name="e_mail">E-mail</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="blood_group">Blood group</string>
+    <string name="weight">Weight</string>
+    <string name="accept_terms_conditions"><![CDATA[Accept Terms & Conditions]]></string>
+    <string name="contact_number">Contact number</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="any_previous_donations">Any previous donations?</string>
+    <string name="submit">Submit</string>
+
+    <string name="hint_dob">Date of Birth</string>
+    <string name="hint_gender">I am</string>
+    <string name="hint_weight">Weight</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="err_msg_name">Please enter a Name</string>
+    <string name="err_msg_required">Valid Input Required</string>
+    <string name="err_msg_email">Please enter a Valid Email</string>
+    <string name="err_msg_password">Enter a Password</string>
+    <string name="err_msg_dob">Enter a valid D.O.B</string>
+    <string name="err_msg_valid_no">Enter a valid Contact Number</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Profile</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+        <item>About us</item>
+        <item>Privacy policy</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="activity_title_security">Security</string>
+    <string name="action_logout">Logout</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- preference -->
+    <string name="security">Security</string>
+    <string name="events">Events</string>
+    <string name="announcements">Announcements</string>
+    <string name="dues">Dues</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

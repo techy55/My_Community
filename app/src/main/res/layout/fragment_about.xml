@@ -1,0 +1,26 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_login"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.shashank.sony.fancyaboutpagelib.FancyAboutPage
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fancyaboutpage">
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="180dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/ic_launcher_round"
+                app:civ_border_color="#40FFFFFF"
+                app:civ_border_width="10dp"
+                android:id="@+id/circularImageView" />
+        </com.shashank.sony.fancyaboutpagelib.FancyAboutPage>
+    </RelativeLayout>
+</ScrollView>

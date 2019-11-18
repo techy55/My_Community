@@ -1,0 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_login"
+    tools:context=".common.ServicesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_marginTop="50dp"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/electrician"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="1dp"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:drawableTop="@drawable/electrician"
+                android:focusable="true"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:paddingTop="30dp"
+                android:paddingRight="30dp"
+                android:text="Electrician"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/isp"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="1dp"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:drawableTop="@drawable/isp"
+                android:focusable="true"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:paddingTop="30dp"
+                android:paddingRight="30dp"
+                android:text="isp"
+                android:color="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/plumbing"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="1dp"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:drawableTop="@drawable/faucet"
+                android:focusable="true"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:paddingTop="30dp"
+                android:paddingRight="30dp"
+                android:text="plumbing"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/pest_ctrl"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="1dp"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:drawableTop="@drawable/pest_control64"
+                android:focusable="true"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:paddingTop="30dp"
+                android:paddingRight="30dp"
+                android:text="pest control"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/shop"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="1dp"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:drawableTop="@drawable/cart"
+                android:focusable="true"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:paddingTop="30dp"
+                android:paddingRight="30dp"
+                android:text="shop"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
